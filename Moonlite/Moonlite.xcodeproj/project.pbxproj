@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45024C3A1310CEC100BB3E3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45024C391310CEC100BB3E3D /* UIKit.framework */; };
+		45024C3C1310CEC100BB3E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45024C3B1310CEC100BB3E3D /* Foundation.framework */; };
+		45024C3E1310CEC100BB3E3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45024C3D1310CEC100BB3E3D /* CoreGraphics.framework */; };
+		45024C731310CF1700BB3E3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45024C721310CF1700BB3E3D /* QuartzCore.framework */; };
+		4527B3BC1398C5F400F3ECC8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4527B3BB1398C5F400F3ECC8 /* MobileCoreServices.framework */; };
+		4539023117809F2200C3CC47 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4539023017809F2200C3CC47 /* Default-568h@2x.png */; };
+		453902361780A1C800C3CC47 /* CPDFObjectReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 453902351780A1C800C3CC47 /* CPDFObjectReference.m */; };
+		4539023B1780B39D00C3CC47 /* CPreviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4539023A1780B39D00C3CC47 /* CPreviewCollectionViewCell.m */; };
+		45454DF11558429C004AC470 /* CContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45454DF01558429B004AC470 /* CContentScrollView.m */; };
+		454BF5B41554B92600E7DE1D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454BF5B31554B92600E7DE1D /* MediaPlayer.framework */; };
+		455699A915507139009E52FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4556998D15507139009E52FE /* InfoPlist.strings */; };
+		455699B215507139009E52FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4556999E15507139009E52FE /* main.m */; };
+		455699D415507141009E52FE /* CLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 455699BA15507141009E52FE /* CLibrary.m */; };
+		455699D515507141009E52FE /* CLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455699BC15507141009E52FE /* CLibraryViewController.m */; };
+		455699D715507141009E52FE /* CPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 455699C015507141009E52FE /* CPDFDocument.m */; };
+		455699D815507141009E52FE /* CPDFDocument_Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 455699C215507141009E52FE /* CPDFDocument_Private.m */; };
+		455699D915507141009E52FE /* CPDFPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 455699C415507141009E52FE /* CPDFPage.m */; };
+		455699DA15507141009E52FE /* CPDFDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455699C715507141009E52FE /* CPDFDocumentViewController.m */; };
+		455699DD15507141009E52FE /* CPDFPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 455699CC15507141009E52FE /* CPDFPageView.m */; };
+		455699E515507148009E52FE /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 455699E415507148009E52FE /* Geometry.m */; };
+		455699F8155071A5009E52FE /* CPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 455699EE155071A5009E52FE /* CPagingView.m */; };
+		455699F9155071A5009E52FE /* CPersistentCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 455699F0155071A5009E52FE /* CPersistentCache.m */; };
+		455699FB155071A5009E52FE /* NSFileManager_BugFixExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 455699F4155071A5009E52FE /* NSFileManager_BugFixExtensions.m */; };
+		455699FD155071BB009E52FE /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 455699FC155071BB009E52FE /* Samples */; };
+		45C25DD6155335AC001BA233 /* CPDFStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C25DD5155335AC001BA233 /* CPDFStream.m */; };
+		45C25DD9155335BD001BA233 /* PDFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C25DD8155335BD001BA233 /* PDFUtilities.m */; };
+		45D9699B1552F8F600338688 /* CPDFAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9699A1552F8F600338688 /* CPDFAnnotation.m */; };
+		45D969A01553058E00338688 /* CPDFPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9699E1553058E00338688 /* CPDFPageViewController.m */; };
+		45D969CD1553177800338688 /* CPDFAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D969CC1553177800338688 /* CPDFAnnotationView.m */; };
+		45F9FAFA1582D495004D267B /* CFadelessTiledLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F9FAF91582D495004D267B /* CFadelessTiledLayer.m */; };
+		6E152E99E4FCDF714989CB08 /* libPods-Moonlite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFFDF4D43A111B6CB1429FA /* libPods-Moonlite.a */; };
+		84F4ACF21D59E05000CEF3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F4ACF11D59E05000CEF3B3 /* LaunchScreen.storyboard */; };
+		84F4ACF41D59E05700CEF3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F4ACF31D59E05700CEF3B3 /* Assets.xcassets */; };
+		84F4ACF61D59E05E00CEF3B3 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F4ACF51D59E05E00CEF3B3 /* background.jpg */; };
+		84F4ACF91D59E29F00CEF3B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4ACF81D59E29F00CEF3B3 /* AppDelegate.m */; };
+		84F4AD001D59E39B00CEF3B3 /* MGBooksListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4ACFF1D59E39B00CEF3B3 /* MGBooksListController.m */; };
+		84F4AD041D59E3A200CEF3B3 /* MGBookListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4AD021D59E3A200CEF3B3 /* MGBookListCell.m */; };
+		84F4AD051D59E3A200CEF3B3 /* MGBookListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F4AD031D59E3A200CEF3B3 /* MGBookListCell.xib */; };
+		84F4AD0C1D59E3BF00CEF3B3 /* MGNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4AD081D59E3BF00CEF3B3 /* MGNetworkManager.m */; };
+		84F4AD0D1D59E3BF00CEF3B3 /* NSDictionary+Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4AD0A1D59E3BF00CEF3B3 /* NSDictionary+Accessors.m */; };
+		84F4AD141D59E40900CEF3B3 /* Moonlite.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 84F4AD0F1D59E40900CEF3B3 /* Moonlite.xcdatamodel */; };
+		84F4AD151D59E40900CEF3B3 /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4AD111D59E40900CEF3B3 /* Book+CoreDataProperties.m */; };
+		84F4AD161D59E40900CEF3B3 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4AD131D59E40900CEF3B3 /* Book.m */; };
+		84F4AD181D59E49400CEF3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F4AD171D59E49400CEF3B3 /* Main.storyboard */; };
+		84F4AD1A1D59FC7800CEF3B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F4AD191D59FC7800CEF3B3 /* AVFoundation.framework */; };
+		84F4E8351D5A103E006B51BF /* FlashLightUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E8341D5A103E006B51BF /* FlashLightUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45024C351310CEC100BB3E3D /* Moonlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonlite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45024C391310CEC100BB3E3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45024C3B1310CEC100BB3E3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45024C3D1310CEC100BB3E3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45024C721310CF1700BB3E3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4527B3BB1398C5F400F3ECC8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4539023017809F2200C3CC47 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		453902341780A1C800C3CC47 /* CPDFObjectReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFObjectReference.h; sourceTree = "<group>"; };
+		453902351780A1C800C3CC47 /* CPDFObjectReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDFObjectReference.m; sourceTree = "<group>"; };
+		453902391780B39D00C3CC47 /* CPreviewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPreviewCollectionViewCell.h; sourceTree = "<group>"; };
+		4539023A1780B39D00C3CC47 /* CPreviewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPreviewCollectionViewCell.m; sourceTree = "<group>"; };
+		45454DEF1558429B004AC470 /* CContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CContentScrollView.h; sourceTree = "<group>"; };
+		45454DF01558429B004AC470 /* CContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CContentScrollView.m; sourceTree = "<group>"; };
+		454BF5B31554B92600E7DE1D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4556998E15507139009E52FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4556999115507139009E52FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4556999E15507139009E52FE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		455699B915507141009E52FE /* CLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLibrary.h; sourceTree = "<group>"; };
+		455699BA15507141009E52FE /* CLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLibrary.m; sourceTree = "<group>"; };
+		455699BB15507141009E52FE /* CLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLibraryViewController.h; sourceTree = "<group>"; };
+		455699BC15507141009E52FE /* CLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLibraryViewController.m; sourceTree = "<group>"; };
+		455699BF15507141009E52FE /* CPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFDocument.h; sourceTree = "<group>"; };
+		455699C015507141009E52FE /* CPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDFDocument.m; sourceTree = "<group>"; };
+		455699C115507141009E52FE /* CPDFDocument_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFDocument_Private.h; sourceTree = "<group>"; };
+		455699C215507141009E52FE /* CPDFDocument_Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDFDocument_Private.m; sourceTree = "<group>"; };
+		455699C315507141009E52FE /* CPDFPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFPage.h; sourceTree = "<group>"; };
+		455699C415507141009E52FE /* CPDFPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDFPage.m; sourceTree = "<group>"; };
+		455699C615507141009E52FE /* CPDFDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFDocumentViewController.h; sourceTree = "<group>"; };
+		455699C715507141009E52FE /* CPDFDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDFDocumentViewController.m; sourceTree = "<group>"; };
+		455699CB15507141009E52FE /* CPDFPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFPageView.h; sourceTree = "<group>"; };
+		455699CC15507141009E52FE /* CPDFPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDFPageView.m; sourceTree = "<group>"; };
+		455699E315507148009E52FE /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		455699E415507148009E52FE /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geometry.m; sourceTree = "<group>"; };
+		455699ED155071A5009E52FE /* CPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPagingView.h; sourceTree = "<group>"; };
+		455699EE155071A5009E52FE /* CPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPagingView.m; sourceTree = "<group>"; };
+		455699EF155071A5009E52FE /* CPersistentCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPersistentCache.h; sourceTree = "<group>"; };
+		455699F0155071A5009E52FE /* CPersistentCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPersistentCache.m; sourceTree = "<group>"; };
+		455699F3155071A5009E52FE /* NSFileManager_BugFixExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFileManager_BugFixExtensions.h; sourceTree = "<group>"; };
+		455699F4155071A5009E52FE /* NSFileManager_BugFixExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFileManager_BugFixExtensions.m; sourceTree = "<group>"; };
+		455699FC155071BB009E52FE /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
+		45C25DD4155335AC001BA233 /* CPDFStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFStream.h; sourceTree = "<group>"; };
+		45C25DD5155335AC001BA233 /* CPDFStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDFStream.m; sourceTree = "<group>"; };
+		45C25DD7155335BD001BA233 /* PDFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFUtilities.h; sourceTree = "<group>"; };
+		45C25DD8155335BD001BA233 /* PDFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFUtilities.m; sourceTree = "<group>"; };
+		45D969991552F8F600338688 /* CPDFAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFAnnotation.h; sourceTree = "<group>"; };
+		45D9699A1552F8F600338688 /* CPDFAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDFAnnotation.m; sourceTree = "<group>"; };
+		45D9699D1553058E00338688 /* CPDFPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFPageViewController.h; sourceTree = "<group>"; };
+		45D9699E1553058E00338688 /* CPDFPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDFPageViewController.m; sourceTree = "<group>"; };
+		45D969CB1553177800338688 /* CPDFAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDFAnnotationView.h; sourceTree = "<group>"; };
+		45D969CC1553177800338688 /* CPDFAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDFAnnotationView.m; sourceTree = "<group>"; };
+		45F9FAF81582D495004D267B /* CFadelessTiledLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFadelessTiledLayer.h; sourceTree = "<group>"; };
+		45F9FAF91582D495004D267B /* CFadelessTiledLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFadelessTiledLayer.m; sourceTree = "<group>"; };
+		51A569AC8EB767EBBFF75B45 /* Pods-Moonlite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moonlite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moonlite/Pods-Moonlite.debug.xcconfig"; sourceTree = "<group>"; };
+		84F4ACF01D59E05000CEF3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F4ACF31D59E05700CEF3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F4ACF51D59E05E00CEF3B3 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		84F4ACF71D59E29F00CEF3B3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84F4ACF81D59E29F00CEF3B3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84F4ACFE1D59E39B00CEF3B3 /* MGBooksListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBooksListController.h; sourceTree = "<group>"; };
+		84F4ACFF1D59E39B00CEF3B3 /* MGBooksListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGBooksListController.m; sourceTree = "<group>"; };
+		84F4AD011D59E3A200CEF3B3 /* MGBookListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBookListCell.h; sourceTree = "<group>"; };
+		84F4AD021D59E3A200CEF3B3 /* MGBookListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGBookListCell.m; sourceTree = "<group>"; };
+		84F4AD031D59E3A200CEF3B3 /* MGBookListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGBookListCell.xib; sourceTree = "<group>"; };
+		84F4AD071D59E3BF00CEF3B3 /* MGNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGNetworkManager.h; sourceTree = "<group>"; };
+		84F4AD081D59E3BF00CEF3B3 /* MGNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGNetworkManager.m; sourceTree = "<group>"; };
+		84F4AD091D59E3BF00CEF3B3 /* NSDictionary+Accessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Accessors.h"; sourceTree = "<group>"; };
+		84F4AD0A1D59E3BF00CEF3B3 /* NSDictionary+Accessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Accessors.m"; sourceTree = "<group>"; };
+		84F4AD0B1D59E3BF00CEF3B3 /* Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blocks.h; sourceTree = "<group>"; };
+		84F4AD0F1D59E40900CEF3B3 /* Moonlite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moonlite.xcdatamodel; sourceTree = "<group>"; };
+		84F4AD101D59E40900CEF3B3 /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84F4AD111D59E40900CEF3B3 /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84F4AD121D59E40900CEF3B3 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		84F4AD131D59E40900CEF3B3 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		84F4AD171D59E49400CEF3B3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		84F4AD191D59FC7800CEF3B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84F4E8331D5A103E006B51BF /* FlashLightUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashLightUtil.h; sourceTree = "<group>"; };
+		84F4E8341D5A103E006B51BF /* FlashLightUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashLightUtil.m; sourceTree = "<group>"; };
+		8FFFDF4D43A111B6CB1429FA /* libPods-Moonlite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Moonlite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD771F6D73B464A27CF5E73D /* Pods-Moonlite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moonlite.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moonlite/Pods-Moonlite.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45024C321310CEC100BB3E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F4AD1A1D59FC7800CEF3B3 /* AVFoundation.framework in Frameworks */,
+				454BF5B41554B92600E7DE1D /* MediaPlayer.framework in Frameworks */,
+				4527B3BC1398C5F400F3ECC8 /* MobileCoreServices.framework in Frameworks */,
+				45024C731310CF1700BB3E3D /* QuartzCore.framework in Frameworks */,
+				45024C3A1310CEC100BB3E3D /* UIKit.framework in Frameworks */,
+				45024C3C1310CEC100BB3E3D /* Foundation.framework in Frameworks */,
+				45024C3E1310CEC100BB3E3D /* CoreGraphics.framework in Frameworks */,
+				6E152E99E4FCDF714989CB08 /* libPods-Moonlite.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380D3B34BBBFC9D5BD55EB30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51A569AC8EB767EBBFF75B45 /* Pods-Moonlite.debug.xcconfig */,
+				DD771F6D73B464A27CF5E73D /* Pods-Moonlite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45024C2A1310CEC100BB3E3D = {
+			isa = PBXGroup;
+			children = (
+				4539023017809F2200C3CC47 /* Default-568h@2x.png */,
+				4556998815507139009E52FE /* Moonlite */,
+				455699B715507141009E52FE /* Source */,
+				455699E115507148009E52FE /* Externals */,
+				45024C381310CEC100BB3E3D /* Frameworks */,
+				45024C361310CEC100BB3E3D /* Products */,
+				380D3B34BBBFC9D5BD55EB30 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		45024C361310CEC100BB3E3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45024C351310CEC100BB3E3D /* Moonlite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45024C381310CEC100BB3E3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F4AD191D59FC7800CEF3B3 /* AVFoundation.framework */,
+				454BF5B31554B92600E7DE1D /* MediaPlayer.framework */,
+				4527B3BB1398C5F400F3ECC8 /* MobileCoreServices.framework */,
+				45024C721310CF1700BB3E3D /* QuartzCore.framework */,
+				45024C391310CEC100BB3E3D /* UIKit.framework */,
+				45024C3B1310CEC100BB3E3D /* Foundation.framework */,
+				45024C3D1310CEC100BB3E3D /* CoreGraphics.framework */,
+				8FFFDF4D43A111B6CB1429FA /* libPods-Moonlite.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4556998815507139009E52FE /* Moonlite */ = {
+			isa = PBXGroup;
+			children = (
+				84F4E8321D5A1027006B51BF /* Utils */,
+				84F4AD0E1D59E3F100CEF3B3 /* DataBase */,
+				84F4AD061D59E3AD00CEF3B3 /* Helpers */,
+				84F4ACFA1D59E37200CEF3B3 /* MVC */,
+				455699FC155071BB009E52FE /* Samples */,
+				4556998C15507139009E52FE /* Resources */,
+				4556999515507139009E52FE /* Source */,
+			);
+			name = Moonlite;
+			sourceTree = "<group>";
+		};
+		4556998C15507139009E52FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4556998D15507139009E52FE /* InfoPlist.strings */,
+				4556999115507139009E52FE /* Info.plist */,
+				84F4AD171D59E49400CEF3B3 /* Main.storyboard */,
+				84F4ACF11D59E05000CEF3B3 /* LaunchScreen.storyboard */,
+				84F4ACF31D59E05700CEF3B3 /* Assets.xcassets */,
+				84F4ACF51D59E05E00CEF3B3 /* background.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4556999515507139009E52FE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4556999E15507139009E52FE /* main.m */,
+				84F4ACF71D59E29F00CEF3B3 /* AppDelegate.h */,
+				84F4ACF81D59E29F00CEF3B3 /* AppDelegate.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		455699B715507141009E52FE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				455699B815507141009E52FE /* Library */,
+				455699BE15507141009E52FE /* PDF Model */,
+				455699C515507141009E52FE /* PDF UI */,
+				455699E6155071A5009E52FE /* Support */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		455699B815507141009E52FE /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				455699B915507141009E52FE /* CLibrary.h */,
+				455699BA15507141009E52FE /* CLibrary.m */,
+				455699BB15507141009E52FE /* CLibraryViewController.h */,
+				455699BC15507141009E52FE /* CLibraryViewController.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		455699BE15507141009E52FE /* PDF Model */ = {
+			isa = PBXGroup;
+			children = (
+				455699BF15507141009E52FE /* CPDFDocument.h */,
+				455699C015507141009E52FE /* CPDFDocument.m */,
+				455699C115507141009E52FE /* CPDFDocument_Private.h */,
+				455699C215507141009E52FE /* CPDFDocument_Private.m */,
+				455699C315507141009E52FE /* CPDFPage.h */,
+				455699C415507141009E52FE /* CPDFPage.m */,
+				45D969991552F8F600338688 /* CPDFAnnotation.h */,
+				45D9699A1552F8F600338688 /* CPDFAnnotation.m */,
+				45C25DD4155335AC001BA233 /* CPDFStream.h */,
+				45C25DD5155335AC001BA233 /* CPDFStream.m */,
+				45C25DD7155335BD001BA233 /* PDFUtilities.h */,
+				45C25DD8155335BD001BA233 /* PDFUtilities.m */,
+				453902341780A1C800C3CC47 /* CPDFObjectReference.h */,
+				453902351780A1C800C3CC47 /* CPDFObjectReference.m */,
+			);
+			path = "PDF Model";
+			sourceTree = "<group>";
+		};
+		455699C515507141009E52FE /* PDF UI */ = {
+			isa = PBXGroup;
+			children = (
+				455699C615507141009E52FE /* CPDFDocumentViewController.h */,
+				455699C715507141009E52FE /* CPDFDocumentViewController.m */,
+				453902391780B39D00C3CC47 /* CPreviewCollectionViewCell.h */,
+				4539023A1780B39D00C3CC47 /* CPreviewCollectionViewCell.m */,
+				45D9699D1553058E00338688 /* CPDFPageViewController.h */,
+				45D9699E1553058E00338688 /* CPDFPageViewController.m */,
+				455699CB15507141009E52FE /* CPDFPageView.h */,
+				455699CC15507141009E52FE /* CPDFPageView.m */,
+				45D969CB1553177800338688 /* CPDFAnnotationView.h */,
+				45D969CC1553177800338688 /* CPDFAnnotationView.m */,
+			);
+			path = "PDF UI";
+			sourceTree = "<group>";
+		};
+		455699E115507148009E52FE /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				455699E215507148009E52FE /* TouchUI */,
+			);
+			name = Externals;
+			path = ../Externals;
+			sourceTree = "<group>";
+		};
+		455699E215507148009E52FE /* TouchUI */ = {
+			isa = PBXGroup;
+			children = (
+				455699E315507148009E52FE /* Geometry.h */,
+				455699E415507148009E52FE /* Geometry.m */,
+			);
+			path = TouchUI;
+			sourceTree = "<group>";
+		};
+		455699E6155071A5009E52FE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				455699ED155071A5009E52FE /* CPagingView.h */,
+				455699EE155071A5009E52FE /* CPagingView.m */,
+				455699EF155071A5009E52FE /* CPersistentCache.h */,
+				455699F0155071A5009E52FE /* CPersistentCache.m */,
+				455699F3155071A5009E52FE /* NSFileManager_BugFixExtensions.h */,
+				455699F4155071A5009E52FE /* NSFileManager_BugFixExtensions.m */,
+				45454DEF1558429B004AC470 /* CContentScrollView.h */,
+				45454DF01558429B004AC470 /* CContentScrollView.m */,
+				45F9FAF81582D495004D267B /* CFadelessTiledLayer.h */,
+				45F9FAF91582D495004D267B /* CFadelessTiledLayer.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		84F4ACFA1D59E37200CEF3B3 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				84F4ACFD1D59E38300CEF3B3 /* Controllers */,
+				84F4ACFC1D59E37E00CEF3B3 /* Views */,
+				84F4ACFB1D59E37900CEF3B3 /* Models */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		84F4ACFB1D59E37900CEF3B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		84F4ACFC1D59E37E00CEF3B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84F4AD011D59E3A200CEF3B3 /* MGBookListCell.h */,
+				84F4AD021D59E3A200CEF3B3 /* MGBookListCell.m */,
+				84F4AD031D59E3A200CEF3B3 /* MGBookListCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		84F4ACFD1D59E38300CEF3B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84F4ACFE1D59E39B00CEF3B3 /* MGBooksListController.h */,
+				84F4ACFF1D59E39B00CEF3B3 /* MGBooksListController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		84F4AD061D59E3AD00CEF3B3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84F4AD071D59E3BF00CEF3B3 /* MGNetworkManager.h */,
+				84F4AD081D59E3BF00CEF3B3 /* MGNetworkManager.m */,
+				84F4AD091D59E3BF00CEF3B3 /* NSDictionary+Accessors.h */,
+				84F4AD0A1D59E3BF00CEF3B3 /* NSDictionary+Accessors.m */,
+				84F4AD0B1D59E3BF00CEF3B3 /* Blocks.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		84F4AD0E1D59E3F100CEF3B3 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				84F4AD0F1D59E40900CEF3B3 /* Moonlite.xcdatamodel */,
+				84F4AD101D59E40900CEF3B3 /* Book+CoreDataProperties.h */,
+				84F4AD111D59E40900CEF3B3 /* Book+CoreDataProperties.m */,
+				84F4AD121D59E40900CEF3B3 /* Book.h */,
+				84F4AD131D59E40900CEF3B3 /* Book.m */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		84F4E8321D5A1027006B51BF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				84F4E8331D5A103E006B51BF /* FlashLightUtil.h */,
+				84F4E8341D5A103E006B51BF /* FlashLightUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45024C341310CEC100BB3E3D /* Moonlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45024C6C1310CEC100BB3E3D /* Build configuration list for PBXNativeTarget "Moonlite" */;
+			buildPhases = (
+				8DB2957EBEA9FB8B57A7AA22 /* [CP] Check Pods Manifest.lock */,
+				45024C311310CEC100BB3E3D /* Sources */,
+				45024C321310CEC100BB3E3D /* Frameworks */,
+				45024C331310CEC100BB3E3D /* Resources */,
+				B6C8384C375D8940819AD33E /* [CP] Embed Pods Frameworks */,
+				46E84883712912B0A56575B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moonlite;
+			productName = PDFReader;
+			productReference = 45024C351310CEC100BB3E3D /* Moonlite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45024C2C1310CEC100BB3E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = midgets;
+				TargetAttributes = {
+					45024C341310CEC100BB3E3D = {
+						DevelopmentTeam = 327RWWLVED;
+					};
+				};
+			};
+			buildConfigurationList = 45024C2F1310CEC100BB3E3D /* Build configuration list for PBXProject "Moonlite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45024C2A1310CEC100BB3E3D;
+			productRefGroup = 45024C361310CEC100BB3E3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45024C341310CEC100BB3E3D /* Moonlite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45024C331310CEC100BB3E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455699A915507139009E52FE /* InfoPlist.strings in Resources */,
+				4539023117809F2200C3CC47 /* Default-568h@2x.png in Resources */,
+				84F4ACF61D59E05E00CEF3B3 /* background.jpg in Resources */,
+				455699FD155071BB009E52FE /* Samples in Resources */,
+				84F4ACF21D59E05000CEF3B3 /* LaunchScreen.storyboard in Resources */,
+				84F4ACF41D59E05700CEF3B3 /* Assets.xcassets in Resources */,
+				84F4AD181D59E49400CEF3B3 /* Main.storyboard in Resources */,
+				84F4AD051D59E3A200CEF3B3 /* MGBookListCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46E84883712912B0A56575B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moonlite/Pods-Moonlite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DB2957EBEA9FB8B57A7AA22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C8384C375D8940819AD33E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moonlite/Pods-Moonlite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45024C311310CEC100BB3E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F4AD001D59E39B00CEF3B3 /* MGBooksListController.m in Sources */,
+				84F4ACF91D59E29F00CEF3B3 /* AppDelegate.m in Sources */,
+				455699B215507139009E52FE /* main.m in Sources */,
+				455699D415507141009E52FE /* CLibrary.m in Sources */,
+				455699D515507141009E52FE /* CLibraryViewController.m in Sources */,
+				84F4AD0D1D59E3BF00CEF3B3 /* NSDictionary+Accessors.m in Sources */,
+				4539023B1780B39D00C3CC47 /* CPreviewCollectionViewCell.m in Sources */,
+				455699D715507141009E52FE /* CPDFDocument.m in Sources */,
+				455699D815507141009E52FE /* CPDFDocument_Private.m in Sources */,
+				455699D915507141009E52FE /* CPDFPage.m in Sources */,
+				453902361780A1C800C3CC47 /* CPDFObjectReference.m in Sources */,
+				455699DA15507141009E52FE /* CPDFDocumentViewController.m in Sources */,
+				84F4AD161D59E40900CEF3B3 /* Book.m in Sources */,
+				84F4E8351D5A103E006B51BF /* FlashLightUtil.m in Sources */,
+				455699DD15507141009E52FE /* CPDFPageView.m in Sources */,
+				455699E515507148009E52FE /* Geometry.m in Sources */,
+				455699F8155071A5009E52FE /* CPagingView.m in Sources */,
+				84F4AD041D59E3A200CEF3B3 /* MGBookListCell.m in Sources */,
+				455699F9155071A5009E52FE /* CPersistentCache.m in Sources */,
+				84F4AD0C1D59E3BF00CEF3B3 /* MGNetworkManager.m in Sources */,
+				455699FB155071A5009E52FE /* NSFileManager_BugFixExtensions.m in Sources */,
+				45D9699B1552F8F600338688 /* CPDFAnnotation.m in Sources */,
+				45D969A01553058E00338688 /* CPDFPageViewController.m in Sources */,
+				45D969CD1553177800338688 /* CPDFAnnotationView.m in Sources */,
+				84F4AD141D59E40900CEF3B3 /* Moonlite.xcdatamodel in Sources */,
+				45C25DD6155335AC001BA233 /* CPDFStream.m in Sources */,
+				45C25DD9155335BD001BA233 /* PDFUtilities.m in Sources */,
+				45454DF11558429C004AC470 /* CContentScrollView.m in Sources */,
+				84F4AD151D59E40900CEF3B3 /* Book+CoreDataProperties.m in Sources */,
+				45F9FAFA1582D495004D267B /* CFadelessTiledLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4556998D15507139009E52FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4556998E15507139009E52FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84F4ACF11D59E05000CEF3B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F4ACF01D59E05000CEF3B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../../../../Desktop/Moonlite/Moonlite;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45024C6A1310CEC100BB3E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		45024C6B1310CEC100BB3E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		45024C6D1310CEC100BB3E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A569AC8EB767EBBFF75B45 /* Pods-Moonlite.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.midgets.moonlite;
+				PRODUCT_NAME = Moonlite;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45024C6E1310CEC100BB3E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD771F6D73B464A27CF5E73D /* Pods-Moonlite.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.midgets.moonlite;
+				PRODUCT_NAME = Moonlite;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45024C2F1310CEC100BB3E3D /* Build configuration list for PBXProject "Moonlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45024C6A1310CEC100BB3E3D /* Debug */,
+				45024C6B1310CEC100BB3E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45024C6C1310CEC100BB3E3D /* Build configuration list for PBXNativeTarget "Moonlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45024C6D1310CEC100BB3E3D /* Debug */,
+				45024C6E1310CEC100BB3E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45024C2C1310CEC100BB3E3D /* Project object */;
+}

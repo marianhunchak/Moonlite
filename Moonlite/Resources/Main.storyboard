@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LCR-LS-Mzs">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Books List Controller-->
+        <scene sceneID="HSf-5X-m6p">
+            <objects>
+                <tableViewController storyboardIdentifier="MGBooksListController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Uhn-fH-FW6" customClass="MGBooksListController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="I58-0B-ToI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="Uhn-fH-FW6" id="6Av-CC-Ieu"/>
+                            <outlet property="delegate" destination="Uhn-fH-FW6" id="eow-rh-ONW"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="KQz-rU-nuu"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W7b-1J-BCn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868" y="357"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="hhs-tb-blO">
+            <objects>
+                <viewController storyboardIdentifier="CPDFDocumentViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="J2c-sR-KXR" customClass="CPDFDocumentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BhL-SK-C8J"/>
+                        <viewControllerLayoutGuide type="bottom" id="aa4-3r-Ogd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W3S-UZ-vIJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="Tw8-re-ydI"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VwV-HN-sGM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1393" y="357"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uow-Xb-8wX">
+            <objects>
+                <navigationController id="LCR-LS-Mzs" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GEY-m8-y2q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.23137254901960785" green="0.11764705882352941" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Uhn-fH-FW6" kind="relationship" relationship="rootViewController" id="U4e-Rh-KV6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AI0-BM-jrK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="357"/>
+        </scene>
+    </scenes>
+</document>

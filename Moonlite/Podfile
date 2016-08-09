@@ -1,0 +1,11 @@
+platform :ios, ‘8.0’
+
+def framework_pods
+    pod 'SAMHUDView'
+    pod 'AFNetworking', '~> 3.0’
+    pod "MagicalRecord"
+end
+
+target ‘Moonlite’ do
+    framework_pods
+end
